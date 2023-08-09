@@ -9,33 +9,33 @@ import './navbar.css';
 
 const Navbar = () => {
   const { showModalHandler } = useModalContext();
-  // const [isPlaying, setIsPlaying] = useState(false);
-  // const [showPopup, setShowPopup] = useState(false);
-  // const audioRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [showPopup, setShowPopup] = useState(false);
+  const audioRef = useRef(null);
 
-  // useEffect(() => {
-  //   if (isPlaying) {
-  //     audioRef.current.play();
-  //   } else {
-  //     audioRef.current.pause();
-  //   }
-  // }, [isPlaying]);
+  useEffect(() => {
+    if (isPlaying) {
+      audioRef.current.play();
+    } else {
+      audioRef.current.pause();
+    }
+  }, [isPlaying]);
 
-  // useEffect(() => {
-  //   const popupTimeout = setTimeout(() => {
-  //     setShowPopup(true);
-  //   }, 5000);
+  useEffect(() => {
+    const popupTimeout = setTimeout(() => {
+      setShowPopup(true);
+    }, 5000);
 
-  //   return () => clearTimeout(popupTimeout);
-  // }, []);
+    return () => clearTimeout(popupTimeout);
+  }, []);
 
-  // const togglePlay = () => {
-  //   setIsPlaying(prevIsPlaying => !prevIsPlaying);
-  // };
+  const togglePlay = () => {
+    setIsPlaying(prevIsPlaying => !prevIsPlaying);
+  };
 
-  // const closePopup = () => {
-  //   setShowPopup(false);
-  // };
+  const closePopup = () => {
+    setShowPopup(false);
+  };
 
   return (
     <nav>
@@ -44,12 +44,12 @@ const Navbar = () => {
           <img src={Logo} alt="Logo" />
         </a>
 
-        {/* <div className="App">
+        <div className="App">
           <button className="playButton" onClick={togglePlay}>
             {isPlaying ? 'Pause' : 'Play'}
           </button>
           <audio ref={audioRef} src={musicFile} />
-        </div> */}
+        </div>
 
         <ul className="nav__menu">
           {data.map(item => (
@@ -62,14 +62,14 @@ const Navbar = () => {
           <IoIosColorPalette />
         </button>
       </div>
-      {/* {showPopup && (
+      {showPopup && (
         <div className="popup">
           <button className="popup-close" onClick={closePopup}>
             Close
           </button>
           <p>You can listen music by clicking on the play button!</p>
         </div>
-      )} */}
+      )}
     </nav>
   );
 };
