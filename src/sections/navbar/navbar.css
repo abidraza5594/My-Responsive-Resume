@@ -12,6 +12,41 @@ nav {
     transition: var(--transition);
 }
 
+.playButton {
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/* ... other styles ... */
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  /* ... other styles ... */
+    
+
 .nav__container {
     display: flex;
     justify-content: space-between;

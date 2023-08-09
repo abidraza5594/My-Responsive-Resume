@@ -2,7 +2,6 @@ import Card from '../../components/Card'
 
 
 const Project = ({project}) => {
-  console.log(project)
   return (
     <Card className="portfolio__project">
         <div className="portfolio__project-image">
