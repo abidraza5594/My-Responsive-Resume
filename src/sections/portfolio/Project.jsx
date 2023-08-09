@@ -2,6 +2,7 @@ import Card from '../../components/Card'
 
 
 const Project = ({project}) => {
+  console.log(project)
   return (
     <Card className="portfolio__project">
         <div className="portfolio__project-image">
@@ -10,8 +11,9 @@ const Project = ({project}) => {
         <h4>{project.title}</h4>
         <p>{project.desc}</p>
         <div className="portfolio__project-cta">
-            <a href={project.demo} className="btn sm" target="_blank" rel="noopener noreferrer">Demo</a>
-            <a href={project.github} className="btn sm primary" target="_blank" rel="noopner noreferrer">Gitbub</a>
+            <a href={project.demo} className="btn sm" target="_blank" rel="noopener noreferrer"> { project.category !='certificate' ? "Demo" :"view"}</a>
+            {project.category !='certificate' ?  <a href={project.github} className="btn sm primary" target="_blank" rel="noopner noreferrer">Gitbub</a> : ""}
+            
         </div>
     </Card>
   )

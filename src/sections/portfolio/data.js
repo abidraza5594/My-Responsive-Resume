@@ -1,17 +1,16 @@
 import Image1 from '../../assets/meesho.png'
 import Image2 from '../../assets/myblogapp.png'
 import Image3 from '../../assets/hackathon.png'
-import Image4 from '../../assets/project4.jpg'
-import Image5 from '../../assets/project5.jpg'
+import Image4 from '../../assets/pythondsa.png'
+import Image5 from '../../assets/hackerrankcer.png'
 import Image6 from '../../assets/resumebuilder.png'
-import Image7 from '../../assets/project7.jpg'
-import Image8 from '../../assets/project8.jpg'
+import Image7 from '../../assets/fullstacknewton.png'
 import Image9 from '../../assets/urlshortner.png'
 
 const data = [
     {
         id: 1,
-        category: 'uiux',
+        category: 'frontend',
         image: Image1,
         title: "Meesho Ecommerce Clone",
         desc: "The project is an e-commerce website clone of Meesho.com, designed to provide a user-friendly online shopping experience. !",
@@ -38,21 +37,21 @@ const data = [
     },
     {
         id: 4,
-        category: 'uiux',
+        category: 'certificate',
         image: Image4,
-        title: "Project Title Four (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "Python Data Structure & Algorithm (Udemy)",
+        desc: "successfully completed the course Python Data Structures & Algorithms + LEETCODE Exercises on 07/29/2023 as taught by Scott Barrett on Udemy.!",
+        demo: 'https://www.udemy.com/certificate/UC-e2ccd682-5e19-46ec-b64d-b19b96d8d32a/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email',
+        github: 'https://www.udemy.com/certificate/UC-e2ccd682-5e19-46ec-b64d-b19b96d8d32a/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email'
     },
     {
         id: 5,
-        category: 'uiux',
+        category: 'certificate',
         image: Image5,
-        title: "Project Title Five (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "Python Basic (hackerrank)",
+        desc: "It covers topics like Scalar Types, Operators and Control Flow, Strings, Collections and Iteration, Modularity, Objects and Types and Classes.!",
+        demo: 'https://www.hackerrank.com/certificates/0b5363d065f7',
+        github: 'https://www.hackerrank.com/certificates/0b5363d065f7' 
     },
     {
         id: 6,
@@ -65,19 +64,19 @@ const data = [
     },
     {
         id: 7,
-        category: 'frontend',
+        category: 'certificate',
         image: Image7,
-        title: "Project Title Seven (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "Full Stack Web Development (Newton School)",
+        desc: "For successfully completing the course on 30th June 2023 with distinction, demonstrating exemplary knowledge and skills in various aspects of the course!",
+        demo: 'https://my.newtonschool.co/course/w2mwj8yo0gzk/certificate/39rqi05iob8q/verify',
+        github: 'https://my.newtonschool.co/course/w2mwj8yo0gzk/certificate/39rqi05iob8q/verify'
     },
     {
         id: 8,
         category: 'backend',
-        image: Image8,
-        title: "Content Management System (Care24)",
-        desc: "We can Add,Edit,Delete,Read Complete CRUD Base Project.This project based on Authentication and  authorization  at perticular user.Also have Search functionality so that we can search perticulat content.Description:   This is a Authentication System in this project User can Create Account and login to the website !",
+        image: "https://tse2.mm.bing.net/th?id=OIP.jE5ftU5yzsbW30WQ8xsw9QHaEK&pid=Api&P=0&h=180",
+        title: "Content Management System (Care24)",  
+        desc: "We can Add,Edit,Delete,Read Complete CRUD Base Project.This project based on Authentication and  authorization  at perticular user.!",
         demo: 'https://github.com/abidraza5594/',
         github: 'https://github.com/abidraza5594/Content-Management-System'
     },
