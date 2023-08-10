@@ -24,7 +24,7 @@ const Navbar = () => {
   useEffect(() => {
     const popupTimeout = setTimeout(() => {
       setShowPopup(true);
-    }, 5000);
+    }, 9000);
 
     return () => clearTimeout(popupTimeout);
   }, []);
@@ -67,7 +67,7 @@ const Navbar = () => {
           <button className="popup-close" onClick={closePopup}>
             Close
           </button>
-          <p>You can listen music by clicking on the play button!</p>
+          <p>You can listen to music, explore, read, and navigate through my website by clicking on the play button!</p>
         </div>
       )}
     </nav>
