@@ -6,6 +6,7 @@ import Image5 from '../../assets/hackerrankcer.png'
 import Image6 from '../../assets/resumebuilder.png'
 import Image7 from '../../assets/fullstacknewton.png'
 import Image9 from '../../assets/urlshortner.png'
+import FoodVariery from "../../assets/foodvariety.jpeg"
 
 const data = [
     {
@@ -29,6 +30,15 @@ const data = [
     {
         id: 3,
         category: 'frontend',
+        image: FoodVariery,
+        title: "Food Variety App",
+        desc: "",
+        demo: 'https://variety-of-food.vercel.app/',
+        github: 'https://github.com/abidraza5594/variety-of-food'
+    },
+    {
+        id: 4,
+        category: 'frontend',
         image: Image3,
         title: "Hackathon Submissions App (Zillancer)",
         desc: "Developed a submissions app enabling learners to submit hackathon solutions and manage submissions effectively..!",
@@ -36,7 +46,7 @@ const data = [
         github: 'https://github.com/abidraza5594/Hackathon'
     },
     {
-        id: 4,
+        id: 5,
         category: 'certificate',
         image: Image4,
         title: "Python Data Structure & Algorithm (Udemy)",
@@ -45,7 +55,7 @@ const data = [
         github: 'https://www.udemy.com/certificate/UC-e2ccd682-5e19-46ec-b64d-b19b96d8d32a/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email'
     },
     {
-        id: 5,
+        id: 6,
         category: 'certificate',
         image: Image5,
         title: "Python Basic (hackerrank)",
@@ -54,7 +64,7 @@ const data = [
         github: 'https://www.hackerrank.com/certificates/0b5363d065f7' 
     },
     {
-        id: 6,
+        id: 7,
         category: 'frontend',
         image: Image6,
         title: "Dynamic Resume Builder",
@@ -63,7 +73,7 @@ const data = [
         github: 'https://github.com/abidraza5594/buildyourresume'
     },
     {
-        id: 7,
+        id: 8,
         category: 'certificate',
         image: Image7,
         title: "Full Stack Web Development (Newton School)",
@@ -72,7 +82,7 @@ const data = [
         github: 'https://my.newtonschool.co/course/w2mwj8yo0gzk/certificate/39rqi05iob8q/verify'
     },
     {
-        id: 8,
+        id: 9,
         category: 'backend',
         image: "https://tse2.mm.bing.net/th?id=OIP.jE5ftU5yzsbW30WQ8xsw9QHaEK&pid=Api&P=0&h=180",
         title: "Content Management System (Care24)",  
@@ -81,7 +91,7 @@ const data = [
         github: 'https://github.com/abidraza5594/Content-Management-System'
     },
     {
-        id: 9,
+        id: 10,
         category: 'frontend',
         image: Image9,
         title: "URL Shortner App",
