@@ -7,6 +7,8 @@ import Image6 from '../../assets/resumebuilder.png'
 import Image7 from '../../assets/fullstacknewton.png'
 import Image9 from '../../assets/urlshortner.png'
 import FoodVariery from "../../assets/foodvariety.jpeg"
+import ReactCerti from '../../assets/reactcerti.PNG'
+
 
 const data = [
     {
@@ -98,7 +100,16 @@ const data = [
         desc: "Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is text copy that serves to fill a space without saying anything!",
         demo: 'https://url-sortner.vercel.app/',
         github: 'https://github.com/abidraza5594/URL-Sortner'
-    }
+    },
+    {
+        id: 11,
+        category: 'certificate',
+        image: ReactCerti,
+        title: "React - The Complete Guide 2023 (incl. React Router & Redux)",
+        desc: "This certificate above verifies that Abid raza kitabuddin ansari successfully completed the course React - The Complete Guide 2023 (incl. React Router & Redux) on 08/16/2023 as taught by Academind by Maximilian Schwarzmüller, Maximilian Schwarzmüller on Udemy.!",
+        demo: 'https://www.udemy.com/certificate/UC-18a35069-b8d5-4a8c-b876-22b6a36d555e/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email',
+        github: '' 
+    },
 ]
 
 
