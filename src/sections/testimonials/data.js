@@ -38,7 +38,7 @@ const data = [
         },
         {
         id: 5,
-        quote: "I like how the app turned out. You are incredible, .",
+        quote: "I like how the app turned out. You are incredible, Abid .",
         avatar: Avatar5,
         name: 'isha',
         profession: 'Street Photographer'
