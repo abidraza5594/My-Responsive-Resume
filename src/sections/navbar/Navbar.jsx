@@ -24,7 +24,7 @@ const Navbar = () => {
   useEffect(() => {
     const popupTimeout = setTimeout(() => {
       setShowPopup(true);
-    }, 9000);
+    }, 7000);
 
     return () => clearTimeout(popupTimeout);
   }, []);
@@ -67,7 +67,28 @@ const Navbar = () => {
           <button className="popup-close" onClick={closePopup}>
             Close
           </button>
-          <p>You can listen to music, explore, read, and navigate through my website by clicking on the play button!</p>
+          <div className="model_container">
+
+            <div className="model_header">
+            <h3 style={{color:"#f57c00"}}>Currently, I am learning.</h3>
+              <h1>NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)</h1>
+              <h3 className='headeing_description'>Master Node JS & Deno.js, build REST APIs with Node.js, GraphQL APIs, add Authentication, use MongoDB, SQL & much more!</h3>
+              <p>Created by : Maximilian Schwarzmüller <span>From Udemy</span></p>
+            </div>
+ 
+            <div className="model_topic_list">
+                
+              <h1>NodeJS web development skills I will learn.</h1>
+              
+              <ul>
+                <li>Work with one of the most in-demand web development programming languages</li>
+                <li>Learn the basics as well as advanced concepts of NodeJS in great detail</li>
+                <li>Build modern, fast and scalable server-side web applications with NodeJS, databases like SQL or MongoDB and more</li>
+                <li>Understand the NodeJS ecosystem and build server-side rendered apps, REST APIs and GraphQL APIs</li>
+              </ul>
+            </div>
+
+          </div>
         </div>
       )}
     </nav>
