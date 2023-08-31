@@ -8,6 +8,7 @@ import Image7 from '../../assets/fullstacknewton.png'
 import Image9 from '../../assets/urlshortner.png'
 import FoodVariery from "../../assets/foodvariety.jpeg"
 import ReactCerti from '../../assets/reactcerti.PNG'
+import React_Try_certi from '../../assets/react-try-cert.PNG'
 
 
 const data = [
@@ -108,6 +109,15 @@ const data = [
         title: "React - The Complete Guide 2023 (incl. React Router & Redux)",
         desc: "This certificate above verifies that Abid raza kitabuddin ansari successfully completed the course React - The Complete Guide 2023 (incl. React Router & Redux) on 08/16/2023 as taught by Academind by Maximilian Schwarzmüller, Maximilian Schwarzmüller on Udemy.!",
         demo: 'https://www.udemy.com/certificate/UC-18a35069-b8d5-4a8c-b876-22b6a36d555e/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email',
+        github: '' 
+    },
+    {
+        id: 12,
+        category: 'certificate',
+        image: React_Try_certi,
+        title: "React/Redux",
+        desc: "Topics - Class based components, Working with APIs(React), Redux Intro, Redux vs React Context, Redux Actions & reducers, Context API, React Basics, Redux Store & Provider, Redux Middleware, React Optimization, Props and Adding JS Logic, React State & Events.!",
+        demo: 'https://my.newtonschool.co/course/6x4hl4dslyw9/certificate/sfi8g9al9yw3/verify',
         github: '' 
     },
 ]
