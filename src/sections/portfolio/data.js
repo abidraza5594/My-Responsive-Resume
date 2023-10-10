@@ -1,4 +1,3 @@
-import Image1 from '../../assets/meesho.png'
 import Image2 from '../../assets/myblogapp.png'
 import Image3 from '../../assets/hackathon.png'
 import Image4 from '../../assets/pythondsa.png'
@@ -6,20 +5,21 @@ import Image5 from '../../assets/hackerrankcer.png'
 import Image6 from '../../assets/resumebuilder.png'
 import Image7 from '../../assets/fullstacknewton.png'
 import Image9 from '../../assets/urlshortner.png'
-import FoodVariery from "../../assets/foodvariety.jpeg"
 import ReactCerti from '../../assets/reactcerti.PNG'
 import React_Try_certi from '../../assets/react-try-cert.PNG'
+import Space_X from "../../assets/space x.PNG"
+import Movie_booking from "../../assets/moviebooking.PNG"
 
 
 const data = [
     {
-        id: 1,
+        id: 0,
         category: 'frontend',
-        image: Image1,
-        title: "Meesho Ecommerce Clone",
-        desc: "The project is an e-commerce website clone of Meesho.com, designed to provide a user-friendly online shopping experience. !",
-        demo: 'https://meesho-clone-sooty.vercel.app/',
-        github: 'https://github.com/abidraza5594/meesho-clone'
+        image: Movie_booking,
+        title: "Movie Seat Booking App",
+        desc: "Implemented real-time seat availability tracking, allowing users to differentiate between available and booked seats, ensuring transparency and informed decision-making.",
+        demo: 'https://leadrat-movie-booking.vercel.app/',
+        github: 'https://github.com/abidrazaansari5594/Leadrat-movie-Booking'
     },
     {
         id: 2,
@@ -33,11 +33,11 @@ const data = [
     {
         id: 3,
         category: 'frontend',
-        image: FoodVariery,
-        title: "Food Variety App",
-        desc: "",
-        demo: 'https://variety-of-food.vercel.app/',
-        github: 'https://github.com/abidraza5594/variety-of-food'
+        image: Space_X,
+        title: "SpaceX Data Landing Page",
+        desc: "Developed a responsive landing page using React to display real-time data about SpaceX Rockets or Capsules.",
+        demo: 'https://brainstrom.vercel.app/',
+        github: 'https://github.com/abidraza5594/'
     },
     {
         id: 4,
