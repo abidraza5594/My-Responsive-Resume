@@ -50,11 +50,14 @@ const Navbar = () => {
           </button>
           <audio ref={audioRef} src={musicFile} />
         </div>
-
         <ul className="nav__menu">
           {data.map(item => (
             <li key={item.id}>
-              <a href={item.link}>{item.title}</a>
+              {item.id === 6 ? (
+                <a href={item.link} target="_blank">{item.title}</a>
+              ) : (
+                <a href={item.link}>{item.title}</a>
+              )}
             </li>
           ))}
         </ul>
@@ -68,23 +71,20 @@ const Navbar = () => {
             Close
           </button>
           <div className="model_container">
-
             <div className="model_header">
-            <h3 style={{color:"#f57c00"}}>Currently, I am learning.</h3>
-              <h1>NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)</h1>
-              <h3 className='headeing_description'>Master Node JS & Deno.js, build REST APIs with Node.js, GraphQL APIs, add Authentication, use MongoDB, SQL & much more!</h3>
-              <p>Created by : Maximilian Schwarzmüller <span>From Udemy</span></p>
+              <h3 style={{ color: "#f57c00" }}>Angular Developer at @Leadrat CRM.</h3>
+              <h1>Proficient in HTML, CSS, JavaScript, React , Angular, Python, Django, and Django Rest Framework,</h1>
+              <h3 className='headeing_description'>I specialize in dynamic web solutions. Expert in front-end design, I create appealing interfaces with HTML, CSS, and ReactJS and Angular.</h3>
+              <p>**fundamental Node.js and Express expertise**.</p>
             </div>
- 
             <div className="model_topic_list">
-                
-              <h1>NodeJS web development skills I will learn.</h1>
-              
+              <h1> Back-end proficiency in Python, Django, and Django Rest Framework enables secure, scalable development,</h1>
+              <h3 style={{ color: "#f57c00" }}>Experience</h3>
               <ul>
-                <li>Work with one of the most in-demand web development programming languages</li>
-                <li>Learn the basics as well as advanced concepts of NodeJS in great detail</li>
-                <li>Build modern, fast and scalable server-side web applications with NodeJS, databases like SQL or MongoDB and more</li>
-                <li>Understand the NodeJS ecosystem and build server-side rendered apps, REST APIs and GraphQL APIs</li>
+                <li>Leadrat CRM | Angular Developer <small>present</small></li>
+                <li>Newton School | Fullstack Developer Bootcamp <small>Aug 2022 to Oct 2023</small></li>
+                <li>Care 24 | Python Django Developer <small>Mar 2022 to Jun 2022</small></li>
+                <li>Maxgen Technology | Python Developer <small>Aug 2021 to Feb 2022</small></li>
               </ul>
             </div>
 

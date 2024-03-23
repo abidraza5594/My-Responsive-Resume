@@ -9,11 +9,21 @@ import ReactCerti from '../../assets/reactcerti.PNG'
 import React_Try_certi from '../../assets/react-try-cert.PNG'
 import Space_X from "../../assets/space x.PNG"
 import Movie_booking from "../../assets/moviebooking.PNG"
+import InterviewPrep from '../../assets/interviewprepic.png'
 
 
 const data = [
     {
-        id: 0,
+        id: 1,
+        category: 'frontend',
+        image: InterviewPrep,
+        title: "Interviewpreparation.com",
+        desc: "Prepare for programming interviews with a comprehensive collection of interview questions and answers. Enhance your coding skills and land your dream job.",
+        demo: 'https://interviewpreparation.netlify.app/',
+        github: 'https://github.com/abidraza5594/interview-preparation'
+    },
+    {
+        id: 2,
         category: 'frontend',
         image: Movie_booking,
         title: "Movie Seat Booking App",
@@ -22,7 +32,7 @@ const data = [
         github: 'https://github.com/abidrazaansari5594/Leadrat-movie-Booking'
     },
     {
-        id: 2,
+        id: 3,
         category: 'frontend',
         image: Image2,
         title: "My Blog Application",
@@ -31,7 +41,7 @@ const data = [
         github: 'https://github.com/abidraza5594/My-Blog-App'
     },
     {
-        id: 3,
+        id: 4,
         category: 'frontend',
         image: Space_X,
         title: "SpaceX Data Landing Page",
@@ -40,7 +50,7 @@ const data = [
         github: 'https://github.com/abidraza5594/'
     },
     {
-        id: 4,
+        id: 5,
         category: 'frontend',
         image: Image3,
         title: "Hackathon Submissions App (Zillancer)",
@@ -49,7 +59,7 @@ const data = [
         github: 'https://github.com/abidraza5594/Hackathon'
     },
     {
-        id: 5,
+        id: 6,
         category: 'certificate',
         image: Image4,
         title: "Python Data Structure & Algorithm (Udemy)",
@@ -58,7 +68,7 @@ const data = [
         github: 'https://www.udemy.com/certificate/UC-e2ccd682-5e19-46ec-b64d-b19b96d8d32a/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email'
     },
     {
-        id: 6,
+        id: 7,
         category: 'certificate',
         image: Image5,
         title: "Python Basic (hackerrank)",
@@ -67,7 +77,7 @@ const data = [
         github: 'https://www.hackerrank.com/certificates/0b5363d065f7' 
     },
     {
-        id: 7,
+        id: 8,
         category: 'frontend',
         image: Image6,
         title: "Dynamic Resume Builder",
@@ -76,7 +86,7 @@ const data = [
         github: 'https://github.com/abidraza5594/buildyourresume'
     },
     {
-        id: 8,
+        id: 9,
         category: 'certificate',
         image: Image7,
         title: "Full Stack Web Development (Newton School)",
@@ -85,7 +95,7 @@ const data = [
         github: 'https://my.newtonschool.co/course/w2mwj8yo0gzk/certificate/39rqi05iob8q/verify'
     },
     {
-        id: 9,
+        id: 10,
         category: 'backend',
         image: "https://tse2.mm.bing.net/th?id=OIP.jE5ftU5yzsbW30WQ8xsw9QHaEK&pid=Api&P=0&h=180",
         title: "Content Management System (Care24)",  
@@ -94,7 +104,7 @@ const data = [
         github: 'https://github.com/abidraza5594/Content-Management-System'
     },
     {
-        id: 10,
+        id: 11,
         category: 'frontend',
         image: Image9,
         title: "URL Shortner App",
@@ -103,7 +113,7 @@ const data = [
         github: 'https://github.com/abidraza5594/URL-Sortner'
     },
     {
-        id: 11,
+        id: 12,
         category: 'certificate',
         image: ReactCerti,
         title: "React - The Complete Guide 2023 (incl. React Router & Redux)",
@@ -112,7 +122,7 @@ const data = [
         github: '' 
     },
     {
-        id: 12,
+        id: 13,
         category: 'certificate',
         image: React_Try_certi,
         title: "React/Redux",

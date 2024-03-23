@@ -89,6 +89,10 @@ nav {
   .model_topic_list li {
     font-size: 1rem;
     margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+
   }
   
   .popup-close {
@@ -134,11 +138,6 @@ nav {
     font-size: 2rem;
     cursor: pointer;
 }
-
-
-
-
-
 
 /* HIDE NAV MENU ON TABLETS AND PHONES */
 @media screen and (max-width: 1024px) {
