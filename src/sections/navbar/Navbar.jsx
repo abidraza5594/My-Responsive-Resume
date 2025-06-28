@@ -32,7 +32,7 @@ const Navbar = () => {
           {data.map(item => (
             <li key={item.id}>
               {item.id === 6 ? (
-                <a href={item.link} target="_blank">{item.title}</a>
+                <a href={item.link} target="_blank" rel="noreferrer">{item.title}</a>
               ) : (
                 <a href={item.link}>{item.title}</a>
               )}
