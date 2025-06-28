@@ -1,0 +1,131 @@
+.experience__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.card.experience__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 2rem;
+    transition: var(--transition);
+}
+
+.card.experience__item:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 2rem 2.5rem hsla(var(--primary-hue), 68%, 42%, 15%);
+}
+
+.experience__icon {
+    background: var(--color-primary);
+    padding: 1rem;
+    border-radius: var(--border-radius-3);
+    font-size: 1.5rem;
+    color: var(--color-white);
+    transition: var(--transition);
+    flex-shrink: 0;
+}
+
+.experience__item:hover .experience__icon {
+    background: var(--color-light);
+    color: var(--color-primary);
+}
+
+.experience__details {
+    flex: 1;
+}
+
+.experience__header h4 {
+    margin-bottom: 0.3rem;
+    color: var(--color-primary);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.experience__header h5 {
+    margin-bottom: 0.2rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color-black);
+}
+
+.experience__duration {
+    color: var(--color-primary);
+    font-style: italic;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: block;
+    margin-top: 0.3rem;
+    background: var(--color-light);
+    padding: 0.2rem 0.5rem;
+    border-radius: var(--border-radius-3);
+    width: fit-content;
+}
+
+.experience__description {
+    margin: 1rem 0;
+    line-height: 1.6;
+    color: var(--color-dark);
+}
+
+.experience__technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.tech__tag {
+    background: var(--color-primary);
+    color: var(--color-white);
+    padding: 0.3rem 0.8rem;
+    border-radius: var(--border-radius-2);
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: var(--transition);
+    display: inline-block;
+    margin: 0.2rem 0;
+}
+
+.tech__tag:hover {
+    background: var(--color-dark);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* MEDIA QUERIES (tablets) */
+@media screen and (max-width: 1024px) {
+    .experience__container {
+        gap: 1.5rem;
+    }
+    
+    .card.experience__item {
+        padding: 1.5rem;
+        gap: 1rem;
+    }
+}
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
+    .card.experience__item {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        padding: 1.2rem;
+    }
+    
+    .experience__icon {
+        align-self: center;
+    }
+    
+    .experience__technologies {
+        justify-content: center;
+    }
+    
+    .tech__tag {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.6rem;
+    }
+}

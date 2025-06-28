@@ -98,10 +98,24 @@
 @media screen and (max-width: 600px) {
     .card.theme__modal {
         width: var(--container-width-md);
-        padding: 3rem 1.5rem;
+        padding: 2rem 1rem;
+        max-width: 90vw;
+        max-height: 90vh;
+        overflow-y: auto;
     }
 
     .theme__primary-colors {
         gap: 0.6rem;
+    }
+
+    .theme__background-colors {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .theme__background-colors button {
+        width: 5rem;
+        height: 2rem;
     }
 }
